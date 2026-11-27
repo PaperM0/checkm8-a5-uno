@@ -353,3 +353,16 @@ python -m platformio run -d lister -t upload --upload-port COM29
 - [a1exdandy/checkm8-a5](https://github.com/a1exdandy/checkm8-a5) —— 705 B payload 版本
 - [NSSpiral/Blackb0x](https://github.com/NSSpiral/Blackb0x) —— ATV 2/3 越狱（3,1 需要先 pwn）
 - [Elcomsoft: 如何把 Apple TV 3 置入 DFU](https://blog.elcomsoft.com/2022/10/how-to-put-apple-tv-3-2012-2013-apple-tv-hd-2015-and-apple-tv-4k-2017-into-dfu/)
+
+---
+
+## 13. 作者与贡献
+
+| 角色 | 贡献 |
+|---|---|
+| **PaperM0**（[@PaperM0](https://github.com/PaperM0)） | 硬件搭建与修复（Uno、USB Host Shield、5 V 焊盘损坏后的飞线）、设备操作（DFU 进入、Blackb0x）、全部实机验证 |
+| **DeepSeek Harness AI agent**（deepseek-flash） | 工具链搭建（PlatformIO、USB Host 库补丁）、固件构建与烧写、故障定位（地址 0/1、HRSL 误读、虚焊与供电判别）、诊断固件与自动化脚本、本文档撰写 |
+
+> 说明：AI 助手不主张著作权。代码来自 MIT 许可的上游项目
+> （[synackuk/checkm8-a5](https://github.com/synackuk/checkm8-a5)、[a1exdandy/checkm8-a5](https://github.com/a1exdandy/checkm8-a5)），
+> 文档与诊断工具由本次协作产生。
