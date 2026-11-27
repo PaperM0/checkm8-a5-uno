@@ -366,4 +366,5 @@ python -m platformio run -d lister -t upload --upload-port COM29
 > 说明：AI 助手不主张著作权。代码来自 MIT 许可的上游项目
 > （[synackuk/checkm8-a5](https://github.com/synackuk/checkm8-a5)、[a1exdandy/checkm8-a5](https://github.com/a1exdandy/checkm8-a5)），
 > 文档与诊断工具由本次协作产生。
-运行环境：[DeepSeek](https://github.com/deepseek-ai) 的 DeepSeek Harness（模型 deepseek-v4.1-flash）。
+
+运行环境：[DeepSeek](https://github.com/deepseek-ai) 的 DeepSeek Harness（模型 deepseek-flash）。
